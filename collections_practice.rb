@@ -36,5 +36,8 @@ letters_array = Array.new
     letter[2] = "$"
   end
 
-  letters_array
+  kesha_array = letters_array.each do |element|
+    element.join
+  end
+  kesha_array
 end
