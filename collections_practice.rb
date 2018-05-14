@@ -17,4 +17,10 @@ def swap_elements(array)
   array[1] = second
   array[2] = third
 
+  binding.pry
+  array[1] = third
+  array[2] = second
+  array
 end
+
+swap_elements(["blake", "ashley", "scott"])
