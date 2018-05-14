@@ -22,5 +22,3 @@ def swap_elements(array)
   array[2] = second
   array
 end
-
-swap_elements(["blake", "ashley", "scott"])
