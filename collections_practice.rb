@@ -34,7 +34,7 @@ letters_array = Array.new
   end
 
   x = letters_array.each do |letter|
-    letter[2] = "$"
+    letter.split
   end
   binding.pry
 end
