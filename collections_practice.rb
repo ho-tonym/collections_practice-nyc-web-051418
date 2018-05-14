@@ -42,3 +42,14 @@ letters_array = Array.new
   end
   kesha_array
 end
+
+def find_a(array)
+  string_array = Array.new
+  array.each do |fruit|
+    string_array << name.split(//)
+  end
+
+  string_array.select do |letter|
+    string_array[0] == "a"
+  end
+end
