@@ -52,6 +52,7 @@ def find_a(array)
   a_array = Array.new
   a_array = string_array.select do |letter|
     string_array[0] == "a"
+    binding.pry
   end
   a_array
 end
