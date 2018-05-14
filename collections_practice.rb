@@ -27,7 +27,11 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  letters_array = array.split
+letters_array = Array.new
+
+  array.each do|name|
+    letters_array << name.split
+  end
 
   letters_array.map do |letter|
     letter[2] = "$"
