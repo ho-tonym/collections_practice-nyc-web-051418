@@ -36,9 +36,9 @@ letters_array = Array.new
     letter[2] = "$"
   end
 
-  kesha_array = letters_array.each do |element|
-    binding.pry
-    element.join
+  kesha_array = Array.new
+  letters_array.each do |element|
+    kesha_array << element.join
   end
   kesha_array
 end
