@@ -66,3 +66,11 @@ def sum_array(array)
   array.each { |a| sum += a }
   sum
 end
+
+def add_s(array)
+  array.map do |word|
+    if word != array[1]
+      word = word + "s"
+    end
+  end
+end
