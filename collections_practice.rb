@@ -36,5 +36,5 @@ letters_array = Array.new
     letter[2] = "$"
   end
 
-  letters_array.join
+  letters_array
 end
