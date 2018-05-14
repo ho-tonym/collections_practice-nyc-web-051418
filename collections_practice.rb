@@ -54,5 +54,9 @@ def find_a(array)
     letter[0] == "a"
 
   end
-  a_array
+  final_array = Array.new
+  a_array.each do |element|
+    final_array << element.join
+  end
+  final_array
 end
