@@ -33,8 +33,6 @@ letters_array = Array.new
     letters_array << name.split(//)
   end
 
-  x = letters_array.each do |letter|
-    letter.split
-  end
+
   binding.pry
 end
