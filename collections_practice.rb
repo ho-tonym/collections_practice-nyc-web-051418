@@ -46,7 +46,7 @@ end
 def find_a(array)
   string_array = Array.new
   array.each do |fruit|
-    string_array << name.split(//)
+    string_array << fruit.split(//)
   end
 
   string_array.select do |letter|
