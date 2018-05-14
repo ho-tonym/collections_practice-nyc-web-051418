@@ -30,7 +30,7 @@ def kesha_maker(array)
 letters_array = Array.new
 
   array.each do|name|
-    letters_array << name.split
+    letters_array << name.split.split
   end
   binding.pry
   letters_array.map do |letter|
