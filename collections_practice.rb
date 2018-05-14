@@ -33,8 +33,8 @@ letters_array = Array.new
     letters_array << name.split
   end
 
-  letters_array.each do |letter|
+  x = letters_array.each do |letter|
     letter[2] = "$"
   end
-
+  binding.pry
 end
