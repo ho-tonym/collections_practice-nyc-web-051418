@@ -32,7 +32,9 @@ letters_array = Array.new
   array.each do|name|
     letters_array << name.split(//)
   end
-
-
+  letters_array.each do |letter|
   binding.pry
+    
+  end
+
 end
