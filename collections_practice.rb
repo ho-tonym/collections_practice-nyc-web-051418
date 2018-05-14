@@ -25,3 +25,14 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  letters_array = array.map do|name|
+    name.split
+  end
+
+  letters_array.map do |letter|
+    letter[2] = "$"
+  end
+  binding.pry
+end
