@@ -32,9 +32,9 @@ letters_array = Array.new
   array.each do|name|
     letters_array << name.split
   end
-
+  binding.pry
   letters_array.map do |letter|
     letter[2] = "$"
   end
-  binding.pry
+
 end
